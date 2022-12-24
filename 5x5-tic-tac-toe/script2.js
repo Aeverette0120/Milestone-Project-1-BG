@@ -4,24 +4,24 @@ window.addEventListener('DOMContentLoaded', () => {
     const resetButton = document.querySelector('#reset');
     const announcer = document.querySelector('.announcer');
 
-    let timeLeft = 60;
-    let elem = document.getElementById('gameTimer');
+//     let timeLeft = 60;
+//     let elem = document.getElementById('gameTimer');
 
-let timerId = setInterval(countdown, 1000);
+// let timerId = setInterval(countdown, 1000);
 
-function countdown() {
-    if (timeLeft == 0) {
-        clearTimeout(timerId);
-        doSomething();
-    } else {
-        elem.innerHTML = timeLeft + ' seconds remaining';
-        timeLeft--;
-    }
-}
+// function countdown() {
+//     if (timeLeft == 0) {
+//         clearTimeout(timerId);
+//         doSomething();
+//     } else {
+//         elem.innerHTML = timeLeft + ' seconds remaining';
+//         timeLeft--;
+//     }
+// }
 
-function doSomething() {
-    alert("Times up GameOver")
-}
+// function doSomething() {
+//     alert("Times up GameOver")
+// }
 
 let board = ['','','','','','','','','','','','','','','','','','','','','','','','',''];
 let currentPlayer = 'X';

@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
     const resetButton = document.querySelector('#reset');
     const announcer = document.querySelector('.announcer');
 
-    let timeLeft = 60;
+    let timeLeft = 150;
     let elem = document.getElementById('gameTimer');
 
 let timerId = setInterval(countdown, 1000);
